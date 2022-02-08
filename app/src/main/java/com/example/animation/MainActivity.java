@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
          imageView =(ImageView) findViewById(R.id.heart);
         cardView= findViewById(R.id.card);
         txt = findViewById(R.id.txt);
+	Thread th = new Thread();
 
 
 
